@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import { Product } from "../../app/models/product"
-import ProductList from "./ProductList";
 import ProductCard from "./ProductCard";
 import { useState, useEffect } from "react";
 
@@ -17,7 +16,7 @@ useEffect(() => {
 
 return(
     <>
-    <ProductList products={products} />
+   
     <Grid container spacing={{ xs: 4 }} columns={{ xs: 3, sm: 6, md: 12 }}>
     
     {products.map(product => (
