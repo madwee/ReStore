@@ -7,6 +7,7 @@ interface Props{
 
 }
 export default function ProductList({products}: Props){
+    return(
     <Grid container spacing={{ xs: 4 }} columns={{ xs: 3, sm: 6, md: 12 }}>
     
     {products.map(product => (
@@ -15,5 +16,5 @@ export default function ProductList({products}: Props){
         </Grid>
     ))}
    </Grid>
-   
+   )
 }

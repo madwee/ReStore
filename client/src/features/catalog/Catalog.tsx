@@ -1,6 +1,6 @@
 import { Product } from "../../app/models/product"
-import ProductList from "./ProductList";
 import { useState, useEffect } from "react";
+import ProductList from "./ProductList";
 
 
 export default function Catalog(){
@@ -16,7 +16,7 @@ useEffect(() => {
 return(
     <>
    
-  <ProductList products={products} />
+   <ProductList products={products} />
 
     </>
 
